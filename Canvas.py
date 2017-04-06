@@ -24,7 +24,7 @@ class Canvas:
 
         self.image = None
 
-        self.root.after(1, self.update_image)
+        self.root.after(1, self.new_image)
         self.root.mainloop()
 
     def get_image(self, path):
